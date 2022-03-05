@@ -1,0 +1,42 @@
+html, body {
+    margin: 0px;
+    background-color: #2f4f30;
+    color: white;
+}
+
+.cabecera {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.cabecera-titulo {
+    font-size: 30px;
+}
+
+.cabecera-autor {
+    font-size: 20px;
+}
+
+.carta {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.carta-mazo {
+    width: 60px;
+    position: relative;
+    left: 55px;
+    margin-left: -40px;
+}
+
+#div-cartas-mazo {
+    margin-bottom: -30px;
+}
+
+#div-linea-treboles,
+#div-linea-corazones,
+#div-linea-corazones-negros,
+#div-linea-diamantes {
+    height: 85px;
+}
